@@ -218,21 +218,21 @@ footer {
 
 /* Styling for the welcomepage content */
 .welcome-container{
-    position: static;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: end;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
 .welcome-container img {
-    position: relative;
-    width: 90%;
-    height: 1080px;
+    width: 100%;
+    max-height: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 
@@ -252,6 +252,7 @@ footer {
     color: #ffffff;
     right: 9%;
     margin-bottom: 3%;
+    overflow: hidden;
 }
 
 
