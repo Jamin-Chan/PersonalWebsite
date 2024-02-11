@@ -113,12 +113,14 @@ html {
 .logos img{
     margin-right: 35px;
     vertical-align: middle;
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
 }
 
+/*
 .logos img:hover{
     filter: grayscale(0%);
 }
+*/
 
 /* Styling for the main content */
 main {
@@ -270,8 +272,8 @@ footer {
 }
 
 .hidden {
-    min-height: min-content*2;
-    max-height: 100vh;
+    min-height: 100vh;
+    max-height:120vh;
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
@@ -296,15 +298,22 @@ footer {
     display: flex;
 }
 
+.skills{
+    min-height: 1000px;
+}
+
 .box{
     width: 30%;
-    font-size: 360%;
+    height: 80px;
+    font-size: 320%;
     text-align: center;
+    justify-content: center;
 }
 
 .chart-wrap{
   width: 90%;
-  height: 600px;
+  min-height: 600px;
+  height: 80vh;
   font-family:sans-serif;
   
   .title {
@@ -322,7 +331,7 @@ footer {
   background:repeating-linear-gradient(0deg,transparent,transparent 19.5%,fadeout(#aaa,30%) 20%);
   
   .bar {
-    background-color:#F16335;
+    background-color:rgb(255, 56, 235);
     width:45px;
     height: var(--bar-value);
     align-self:flex-end;
