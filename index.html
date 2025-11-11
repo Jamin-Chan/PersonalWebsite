@@ -1,123 +1,875 @@
+
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src = "script.js"></script>
-</head>
-<body class = "background-white margin-0">
 
-  <nav class = "container fixed-header">
-    <p class= "left black padding-0 margin-0">Jamin Chanツ</p>
-    <div class = "logos right inline-text">
-        <a href="https://www.instagram.com/jamin.200/" target="_blank"><img src="https://cdn.discordapp.com/attachments/1112541604318822600/1113948933572534314/174855.png" alt="Instagram Logo" class = "resized-image"></a>
-        <a href="https://github.com/Jamin-Chan" target="_blank"><img src="https://cdn.discordapp.com/attachments/1112541604318822600/1113947838007754752/github-mark.png" alt="Github Logo" class = "resized-image"></a>
-        <a href="https://www.linkedin.com/in/jamin-chan-856b88222" target="_blank"><img src="https://cdn.discordapp.com/attachments/1112541604318822600/1113947845049987142/LI-In-Bug.png" alt="Linkedin Logo" class = "resized-image"></a>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamin Chan | Full Stack & AI Developer Portfolio | San Francisco Software Engineer</title>
+    <meta name="description" content="Jamin Chan is a skilled Full Stack Developer in San Francisco specializing in React, Node.js, and modern web technologies. View my portfolio of innovative projects and get in touch for collaboration opportunities.">
+    <meta name="keywords" content="Jamin Chan, full stack developer, web developer, React developer, Node.js, portfolio, San Francisco">
+    <link rel="canonical" href="https://jamin-chan.github.io/PersonalWebsite/">
+    <meta name="last-modified" content="2025-11-10">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jamin-chan.github.io/PersonalWebsite/">
+    <meta property="og:title" content="Jamin Chan | Full Stack & AI Developer Portfolio">
+    <meta property="og:description" content="Skilled Full Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio and get in touch.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Jamin+Chan+Portfolio">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jamin-chan.github.io/PersonalWebsite/">
+    <meta property="twitter:title" content="Jamin Chan | Full Stack & AI Developer Portfolio">
+    <meta property="twitter:description" content="Skilled Full Stack Developer specializing in React, Node.js, and modern web technologies.">
+    <meta property="twitter:image" content="https://jaminchan.dev/assets/preview.png">
+
+    <!-- Geo tags -->
+    <meta name="geo.region" content="US-CA">
+    <meta name="geo.placename" content="San Francisco">
+    <meta name="geo.position" content="37.7749;-122.4194">
+
+    <!-- Schema.org structured data -->
+    <!-- <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jamin Chan",
+      "jobTitle": "Full Stack Developer",
+      "description": "Skilled Full Stack Developer specializing in React, Node.js, and modern web technologies",
+      "url": "https://alexjohnson-portfolio.com",
+      "sameAs": [
+        "https://linkedin.com/in/alexjohnson",
+        "https://github.com/alexjohnson",
+        "https://twitter.com/alexjohnson"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "email": "alex.johnson@email.com",
+      "telephone": "+1-555-123-4567"
+    }
+    </script> -->
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+          <!-- <script type="module" crossorigin="" src="/preview/9dc28bfb-bd6f-4480-908a-96ec17a618e1/3763080/assets/index-BcLtYbnj.js"></script> -->
+          <!-- <link rel="stylesheet" crossorigin="" href="/preview/9dc28bfb-bd6f-4480-908a-96ec17a618e1/3763080/assets/index-Csg18QJs.css"> -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 style="position: absolute; left: -9999px;">Jamin Chan - Full Stack Developer</h1>
+    </header>
+    <div id="root">
+      <div class="min-h-screen bg-gray-900">
+        <section class="min-h-screen bg-gray-900 flex items-center justify-center px-6 relative overflow-hidden">
+          <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-20 left-20 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse">
+
+            </div>
+            <div class="absolute top-40 right-20 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 2s;">
+
+            </div>
+            <div class="absolute bottom-20 left-1/2 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 4s;">
+
+            </div>
+          </div>
+          <div class="container mx-auto relative z-10">
+              <div class="max-w-4xl mx-auto text-center">
+                <div class="animate-fade-in-up">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 animate-pulse">Jamin Chan</span>
+                </h1>
+              </div>
+              <div class="animate-fade-in-up animation-delay-200">
+                <h2 class="text-2xl md:text-3xl text-gray-300 mb-8 font-light">Full Stack Developer &amp; Software Engineer</h2>
+              </div>
+              <div class="animate-fade-in-up animation-delay-400">
+                <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">I create beautiful, functional, and user-centered digital experiences. Passionate about clean code, innovative solutions, and bringing ideas to life.</p>
+              </div>
+              <div class="animate-fade-in-up animation-delay-600 flex flex-col sm:flex-row gap-6 justify-center items-center">
+                <a href="#projects" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-8 py-4 text-lg hover-glow group">
+                  <span class="group-hover:scale-110 transition-transform duration-300">View My Work</span>
+                  <i class="ri-arrow-down-line ml-2 group-hover:translate-y-1 transition-transform duration-300">
+
+                  </i>
+                </a>
+                <!-- <a href="#contact" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 px-8 py-4 text-lg hover-float group">
+                  <i class="ri-mail-line mr-2 group-hover:rotate-12 transition-transform duration-300">
+
+                </i>
+                <span class="group-hover:scale-105 transition-transform duration-300">Get In Touch</span>
+              </a> -->
+            </div>
+            <div class="animate-bounce-in animation-delay-800 mt-16">
+              <div class="flex justify-center space-x-6">
+                <a href="https://github.com/Jamin-Chan" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-blue-600/20 transition-all duration-300 hover:scale-110 hover-pulse">
+                  <i class="ri-github-line text-xl">
+
+                  </i>
+                </a>
+                <a href="https://www.linkedin.com/in/jaminchan/" target="_blank" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-blue-600/20 transition-all duration-300 hover:scale-110 hover-pulse">
+                  <i class="ri-linkedin-line text-xl">
+
+                </i>
+              </a>
+              <a href="https://www.instagram.com/jamin.200/" target="_blank" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-blue-600/20 transition-all duration-300 hover:scale-110 hover-pulse">
+                <i class="ri-instagram-line text-xl">
+
+                </i>
+              </a>
+              <!-- <a href="#" target="_blank" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-blue-600/20 transition-all duration-300 hover:scale-110 hover-pulse">
+                <i class="ri-dribbble-line text-xl">
+
+                </i> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+          <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="animate-slide-in-left">
+              <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">About Me</h2>
+              <div class="space-y-6 text-gray-300 text-lg leading-relaxed">
+                <p class="animate-fade-in-up animation-delay-200">
+                  Hi, I am Jamin Chan, a passionate Full Stack Developer based in the San Francisco Bay Area. I recently graduated from UC Davis with a B.S. in Computer Science, where I built a strong foundation in software design, algorithms, and AI systems.
+                </p>
+                <p class="animate-fade-in-up animation-delay-400">
+                  I've worked with technologies like Next.js, React, Firebase, AWS, Google Cloud, OpenAI, and Vertex AI, and I'm driven by the impact technology can have on improving real-world experiences. At HeadstarterAI, I led engineering fellows in developing AI-driven web apps and implemented CI/CD pipelines for continuous optimization.
+                </p>
+                <p class="animate-fade-in-up animation-delay-600">
+                  Outside of coding, I'm constantly learning new tools, exploring through projects, and finding creative ways to push the limits of what software can do. My goal is to build innovative, human-centered solutions that make technology feel effortless.
+                </p>
+              </div>
+            </div>
+            <div class="animate-slide-in-right">
+              <div class="relative">
+                <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 hover-glow">
+                  <img class="w-full h-96 object-cover object-top rounded-xl shadow-2xl hover:scale-105 transition-transform duration-500" src="assets/image0.webp?width=400&height=500&seq=about-portrait&orientation=portrait" 
+                    alt="Jamin Chan - Full Stack Developer" 
+                      width="400" 
+                      height="500"
+                  />
+                </div>
+                <div class="absolute -bottom-6 -right-6 bg-blue-600 rounded-xl p-6 shadow-xl animate-float">
+                  <div class="text-white text-center">
+                    <div class="text-3xl font-bold">1+</div>
+                    <div class="text-sm">Years Experience</div>
+                  </div>
+                </div>
+                <div class="absolute -top-6 -left-6 bg-purple-600 rounded-xl p-6 shadow-xl animate-float" style="animation-delay: 1s;">
+                  <div class="text-white text-center">
+                    <div class="text-3xl font-bold">10+</div>
+                    <div class="text-sm">Projects Completed</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-20 animate-fade-in-up animation-delay-800">
+            <div class="grid md:grid-cols-3 gap-8">
+              <div class="text-center p-6 bg-gray-700 rounded-xl hover-float hover:bg-gray-600 transition-all duration-300">
+                <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                  <i class="ri-code-line text-2xl text-white">
+
+                  </i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Clean Code</h3>
+                  <p class="text-gray-300">Writing maintainable, scalable, and efficient code</p>
+                </div>
+                <div class="text-center p-6 bg-gray-700 rounded-xl hover-float hover:bg-gray-600 transition-all duration-300 animation-delay-200">
+                  <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                    <i class="ri-palette-line text-2xl text-white">
+
+                    </i>
+                  </div>
+                  <h3 class="text-xl font-bold text-white mb-2">UI/UX Design</h3>
+                  <p class="text-gray-300">Creating beautiful and intuitive user experiences</p>
+                </div>
+                <div class="text-center p-6 bg-gray-700 rounded-xl hover-float hover:bg-gray-600 transition-all duration-300 animation-delay-400">
+                  <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                    <i class="ri-rocket-line text-2xl text-white">
+
+                    </i>
+                  </div>
+                  <h3 class="text-xl font-bold text-white mb-2">Performance</h3>
+                  <p class="text-gray-300">Optimizing applications for speed and efficiency</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+          <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16 animate-fade-in-up">
+              <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Education &amp; Learning</h2>
+              <p class="text-xl text-gray-300 max-w-3xl mx-auto">My academic journey and continuous learning path in technology</p>
+            </div>
+            <div class="mb-16">
+              <h3 class="text-2xl font-bold text-white mb-8 text-center animate-fade-in-up animation-delay-200">Academic Background</h3>
+              <div class="space-y-8">
+                <div class="bg-gray-900 rounded-2xl p-8 hover-glow hover:bg-gray-700 transition-all duration-500 cursor-pointer animate-slide-in-left" style="animation-delay: 0s;">
+                  <div class="flex flex-col lg:flex-row lg:items-center gap-6">
+                    <div class="w-20 h-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform duration-300">
+                      <i class="ri-graduation-cap-line text-3xl text-white">
+
+                      </i>
+                    </div>
+                    <div class="flex-1">
+                      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                        <h4 class="text-2xl font-bold text-white hover:text-blue-400 transition-colors duration-300">Bachelor in Computer Science</h4>
+                        <span class="text-blue-400 font-semibold text-lg">2023 - 2025</span>
+                      </div>
+                      <h5 class="text-xl text-blue-300 mb-3 font-medium">University of California, Davis</h5>
+                        <p class="text-gray-300 leading-relaxed">Algorithm Design and Analysis, Computer Architecture, Software Development & Object-Oriented Programing, Probability and Statistical Modeling, Programming Languages, Theory of Computation, Operating Systems, Database Systems, Web Programming, Intro to Artificial Intelligence, Information Visualization</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-900 rounded-2xl p-8 hover-glow hover:bg-gray-700 transition-all duration-500 cursor-pointer animate-slide-in-left" style="animation-delay: 0.2s;">
+                    <div class="flex flex-col lg:flex-row lg:items-center gap-6">
+                      <div class="w-20 h-20 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform duration-300">
+                        <i class="ri-book-open-line text-3xl text-white">
+
+                        </i>
+                      </div>
+                      <div class="flex-1">
+                        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                          <h4 class="text-2xl font-bold text-white hover:text-blue-400 transition-colors duration-300">AT in Computer Science</h4>
+                          <span class="text-blue-400 font-semibold text-lg">2021 - 2023</span>
+                        </div>
+                        <h5 class="text-xl text-blue-300 mb-3 font-medium">Skyline College</h5>
+                        <p class="text-gray-300 leading-relaxed">Data Structures, Intro Object-Oriented Prog: C++, Microcontrollers with C++, Assembly Language, Linear Algebra, Discrete Mathematics, Ordinary Differential Equations</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-900 rounded-2xl p-8 hover-glow hover:bg-gray-700 transition-all duration-500 cursor-pointer animate-slide-in-left" style="animation-delay: 0.4s;">
+                    <div class="flex flex-col lg:flex-row lg:items-center gap-6">
+                      <div class="w-20 h-20 bg-gradient-to-r from-green-600 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform duration-300">
+                        <i class="ri-code-line text-3xl text-white">
+                          
+                        </i>
+                      </div>
+                      <div class="flex-1">
+                        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                          <h4 class="text-2xl font-bold text-white hover:text-blue-400 transition-colors duration-300">Software Engineering Fellow</h4>
+                          <span class="text-blue-400 font-semibold text-lg">2024</span>
+                        </div>
+                        <h5 class="text-xl text-blue-300 mb-3 font-medium">HeadstarterAI</h5>
+                          <p class="text-gray-300 leading-relaxed">Intensive 10-week program building 5+ AI-driven web apps with Next.js, OpenAI, and Vertex AI; leading a 4-person team from design to deployment using CI/CD and MVC best practices.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="animate-fade-in-up animation-delay-800">
+                  <h3 class="text-2xl font-bold text-white mb-8 text-center">Certifications &amp; Achievements</h3>
+                  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-gray-900 p-6 rounded-xl text-center hover-float hover:bg-gray-700 transition-all duration-300 cursor-pointer animate-bounce-in" style="animation-delay: 1s;">
+                      <div class="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                        <i class="ri-cloud-line text-2xl text-white">
+
+                        </i>
+                      </div>
+                      <h4 class="text-white font-semibold mb-2 hover:text-blue-400 transition-colors duration-300">AWS Certified Solutions Architect</h4>
+                      <p class="text-blue-400 text-sm font-medium">2023</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl text-center hover-float hover:bg-gray-700 transition-all duration-300 cursor-pointer animate-bounce-in" style="animation-delay: 1.1s;">
+                      <div class="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                        <i class="ri-google-line text-2xl text-white">
+
+                        </i>
+                      </div>
+                      <h4 class="text-white font-semibold mb-2 hover:text-blue-400 transition-colors duration-300">Google Cloud Professional</h4>
+                      <p class="text-blue-400 text-sm font-medium">2022</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl text-center hover-float hover:bg-gray-700 transition-all duration-300 cursor-pointer animate-bounce-in" style="animation-delay: 1.2s;">
+                      <div class="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                        <i class="ri-database-line text-2xl text-white">
+
+                        </i>
+                      </div>
+                      <h4 class="text-white font-semibold mb-2 hover:text-blue-400 transition-colors duration-300">MongoDB Certified Developer</h4>
+                      <p class="text-blue-400 text-sm font-medium">2021</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl text-center hover-float hover:bg-gray-700 transition-all duration-300 cursor-pointer animate-bounce-in" style="animation-delay: 1.3s;">
+                      <div class="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                        <i class="ri-reactjs-line text-2xl text-white">
+
+                        </i>
+                      </div>
+                      <h4 class="text-white font-semibold mb-2 hover:text-blue-400 transition-colors duration-300">React Advanced Certification</h4>
+                      <p class="text-blue-400 text-sm font-medium">2020</p>
+                    </div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="mt-16 text-center animate-fade-in-up animation-delay-1000">
+                  <div class="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 hover-glow">
+                    <h3 class="text-2xl font-bold text-white mb-4">Lifelong Learner</h3>
+                    <p class="text-green-100 text-lg max-w-2xl mx-auto">Education doesn't stop at graduation. I'm constantly exploring new technologies, taking online courses, and participating in tech communities to stay at the forefront of innovation.</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </section>
+          <section id="skills" class="py-20 bg-gray-900 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-full opacity-5">
+              <div class="absolute top-1/4 left-10 w-32 h-32 border border-blue-500 rounded-full animate-spin" style="animation-duration: 20s;">
+
+              </div>
+              <div class="absolute bottom-1/4 right-10 w-24 h-24 border border-purple-500 rounded-full animate-spin" style="animation-duration: 15s; animation-direction: reverse;">
+
+              </div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 border border-pink-500 rounded-full animate-pulse">
+
+              </div>
+            </div>
+            <div class="container mx-auto px-6 relative z-10">
+              <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 animate-fade-in-up">
+                  <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Skills &amp; Technologies</h2>
+                  <p class="text-xl text-gray-300 max-w-3xl mx-auto">A comprehensive toolkit for building modern digital solutions</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-500 hover-glow hover-float group animate-scale-in border border-gray-700 hover:border-gray-600" style="animation-delay: 0.2s;">
+                    <div class="flex items-center mb-6">
+                      <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ri-code-s-slash-line text-xl text-white">
+
+                        </i>
+                      </div>
+                      <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">Frontend</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.5s;">React</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.55s;">TypeScript</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.6s;">Next.js</div>
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.65s;">Vue.js</div> -->
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.7s;">Tailwind CSS</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.75s;">SASS</div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-500 hover-glow hover-float group animate-scale-in border border-gray-700 hover:border-gray-600" style="animation-delay: 0.3s;">
+                    <div class="flex items-center mb-6">
+                      <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ri-server-line text-xl text-white">
+
+                        </i>
+                      </div>
+                      <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">Backend</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.5s;">Node.js</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.55s;">Python</div>
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.6s;">Express</div> -->
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.65s;">Django</div> -->
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.7s;">PostgreSQL</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.75s;">MongoDB</div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-500 hover-glow hover-float group animate-scale-in border border-gray-700 hover:border-gray-600" style="animation-delay: 0.4s;">
+                    <div class="flex items-center mb-6">
+                      <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ri-smartphone-line text-xl text-white">
+
+                        </i>
+                      </div>
+                      <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">Mobile</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.5s;">React Native</div>
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.55s;">Flutter</div> -->
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.6s;">iOS</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.65s;">Android</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.7s;">Expo</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.75s;">Firebase</div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-500 hover-glow hover-float group animate-scale-in border border-gray-700 hover:border-gray-600" style="animation-delay: 0.5s;">
+                    <div class="flex items-center mb-6">
+                      <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ri-cloud-line text-xl text-white">
+
+                        </i>
+                      </div>
+                      <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">DevOps</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.5s;">Docker</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.55s;">AWS</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.6s;">CI/CD</div>
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.65s;">Kubernetes</div> -->
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.7s;">Linux</div> -->
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.75s;">Git</div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-500 hover-glow hover-float group animate-scale-in border border-gray-700 hover:border-gray-600" style="animation-delay: 0.6s;">
+                    <div class="flex items-center mb-6">
+                      <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-pink-500 to-rose-500 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ri-palette-line text-xl text-white">
+
+                        </i>
+                      </div>
+                      <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">Design</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.5s;">Figma</div>
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.55s;">Adobe XD</div> -->
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.6s;">Photoshop</div> -->
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.65s;">Illustrator</div> -->
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.7s;">Sketch</div>
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.75s;">Prototyping</div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-500 hover-glow hover-float group animate-scale-in border border-gray-700 hover:border-gray-600" style="animation-delay: 0.7s;">
+                    <div class="flex items-center mb-6">
+                      <div class="w-12 h-12 rounded-lg bg-gradient-to-r from-indigo-500 to-blue-500 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ri-tools-line text-xl text-white">
+
+                        </i>
+                      </div>
+                      <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">Tools</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.5s;">VS Code</div>
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.55s;">Postman</div> -->
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.6s;">Jira</div> -->
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.65s;">Slack</div> -->
+                      <!-- <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.7s;">Notion</div> -->
+                      <div class="bg-gray-700 px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300 cursor-default hover:scale-105 animate-bounce-in text-center" style="animation-delay: 0.75s;">GitHub</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-16 text-center animate-fade-in-up animation-delay-800">
+                  <div class="inline-flex items-center space-x-4 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full px-8 py-4 border border-blue-500/30">
+                    <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse">
+
+                    </div>
+                    <span class="text-gray-300 font-medium">Always learning and exploring new technologies</span>
+                    <div class="w-3 h-3 bg-blue-500 rounded-full animate-pulse" style="animation-delay: 0.5s;">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="projects" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6">
+              <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 animate-fade-in-up">
+                  <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Featured Projects</h2>
+                  <p class="text-xl text-gray-300 max-w-3xl mx-auto">A showcase of my recent work and personal projects</p>
+                </div>
+                <!-- <div class="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in-up animation-delay-200">
+                  <button class="px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 animate-scale-in bg-blue-600 text-white shadow-lg hover:shadow-xl" style="animation-delay: 0.3s;">All Projects</button>
+                  <button class="px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 animate-scale-in bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-blue-400" style="animation-delay: 0.4s;">Full Stack</button>
+                  <button class="px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 animate-scale-in bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-blue-400" style="animation-delay: 0.5s;">Frontend</button>
+                  <button class="px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 animate-scale-in bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-blue-400" style="animation-delay: 0.6s;">Backend</button>
+                  <button class="px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 animate-scale-in bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-blue-400" style="animation-delay: 0.7s;">Mobile</button>
+                  <button class="px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer whitespace-nowrap hover:scale-105 animate-scale-in bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-blue-400" style="animation-delay: 0.8s;">AI/ML</button>
+                </div> -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <!-- <div class="bg-gray-700 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden group hover-glow animate-fade-in-up" style="animation-delay: 0.6s;">
+                    <div class="relative overflow-hidden">
+                      <img alt="E-Commerce Platform" class="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500" src="https://readdy.ai/api/search-image?query=Modern%20e-commerce%20website%20interface%2C%20clean%20product%20listing%20page%2C%20shopping%20cart%20functionality%2C%20professional%20web%20design%2C%20blue%20and%20white%20color%20scheme%2C%20responsive%20layout%2C%20high%20quality%20UI%20design&amp;width=600&amp;height=400&amp;seq=project-ecommerce&amp;orientation=landscape">
+                      <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                        <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:rotate-12">
+                          <i class="ri-external-link-line text-lg">
+
+                          </i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:-rotate-12">
+                          <i class="ri-github-line text-lg">
+
+                          </i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="p-6">
+                      <h3 class="text-xl font-bold text-white mb-3 hover:text-blue-400 transition-colors duration-300">E-Commerce Platform</h3>
+                      <p class="text-gray-300 mb-4 line-clamp-3">A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.</p>
+                      <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1s;">React</span>
+                        <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.1s;">Node.js</span>
+                        <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.2s;">MongoDB</span>
+                        <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.3s;">Stripe</span>
+                      </div>
+                      <div class="flex space-x-3">
+                        <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                          <i class="ri-external-link-line mr-2 group-hover:rotate-12 transition-transform duration-300">
+
+                          </i>
+                          <span class="group-hover:scale-105 transition-transform duration-300">Live Demo</span>
+                        </a>
+                        <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                          <i class="ri-github-line mr-2 group-hover:-rotate-12 transition-transform duration-300">
+
+                          </i>
+                          <span class="group-hover:scale-105 transition-transform duration-300">Code</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- <div class="bg-gray-700 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden group hover-glow animate-fade-in-up" style="animation-delay: 0.7s;">
+                    <div class="relative overflow-hidden">
+                      <img alt="Task Management App" class="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500" src="https://readdy.ai/api/search-image?query=Task%20management%20application%20interface%2C%20kanban%20board%20layout%2C%20project%20management%20dashboard%2C%20clean%20modern%20UI%20design%2C%20productivity%20app%20interface%2C%20organized%20workflow%20visualization&amp;width=600&amp;height=400&amp;seq=project-taskapp&amp;orientation=landscape">
+                      <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                        <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:rotate-12">
+                          <i class="ri-external-link-line text-lg">
+
+                          </i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:-rotate-12"
+                        i class="ri-github-line text-lg">
+                      </i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-3 hover:text-blue-400 transition-colors duration-300">Task Management App</h3>
+                  <p class="text-gray-300 mb-4 line-clamp-3">A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                  <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1s;">React</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.1s;">TypeScript</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.2s;">Firebase</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.3s;">Material-UI</span>
+                  </div>
+                  <div class="flex space-x-3">
+                    <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-external-link-line mr-2 group-hover:rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Live Demo</span>
+                    </a>
+                    <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-github-line mr-2 group-hover:-rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="bg-gray-700 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden group hover-glow animate-fade-in-up" style="animation-delay: 0.8s;">
+                <div class="relative overflow-hidden">
+                  <img alt="Weather Analytics API" class="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500" src="https://readdy.ai/api/search-image?query=Weather%20data%20visualization%20dashboard%2C%20analytics%20charts%20and%20graphs%2C%20API%20documentation%20interface%2C%20data%20science%20visualization%2C%20clean%20technical%20interface%20design%2C%20blue%20color%20scheme&amp;width=600&amp;height=400&amp;seq=project-weather&amp;orientation=landscape">
+                  <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                    <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:rotate-12">
+                      <i class="ri-external-link-line text-lg">
+
+                      </i>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:-rotate-12">
+                      <i class="ri-github-line text-lg">
+
+                      </i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-3 hover:text-blue-400 transition-colors duration-300">Weather Analytics API</h3>
+                  <p class="text-gray-300 mb-4 line-clamp-3">RESTful API service that aggregates weather data from multiple sources and provides analytics with machine learning predictions.</p>
+                  <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1s;">Python</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.1s;">FastAPI</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.2s;">PostgreSQL</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.3s;">Docker</span>
+                  </div>
+                  <div class="flex space-x-3">
+                    <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-external-link-line mr-2 group-hover:rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Live Demo</span>
+                    </a>
+                    <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-github-line mr-2 group-hover:-rotate-12 transition-transform duration-300">
+                        
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+              <div class="bg-gray-700 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden group hover-glow animate-fade-in-up" style="animation-delay: 0.9s;">
+                <div class="relative overflow-hidden">
+                  <img alt="Mobile Banking App" class="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500" src="https://readdy.ai/api/search-image?query=Mobile%20banking%20app%20interface%2C%20financial%20dashboard%2C%20transaction%20history%2C%20secure%20login%20screen%2C%20modern%20fintech%20app%20design%2C%20professional%20mobile%20UI&amp;width=600&amp;height=400&amp;seq=project-banking&amp;orientation=landscape">
+                  <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                    <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:rotate-12">
+                      <i class="ri-external-link-line text-lg">
+
+                      </i>
+                    </a>
+                    <a href="https://github.com/Jamin-Chan/ECS162-finalproject" target="_blank" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:-rotate-12">
+                      <i class="ri-github-line text-lg">
+
+                      </i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-3 hover:text-blue-400 transition-colors duration-300">Flashcard AI</h3>
+                  <p class="text-gray-300 mb-4 line-clamp-3">This project allows users to generate personalized flashcards using AI, offering an interactive learning experience. The app leverages modern technologies such as Next.js and Firebase for a seamless user experience.</p>
+                  <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1s;">React</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.1s;">NextJS</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.2s;">Firestore Database</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.3s;">Firebase</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.4s;">Gemini</span>
+                  </div>
+                  <div class="flex space-x-3">
+                    <!-- <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-external-link-line mr-2 group-hover:rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Live Demo</span>
+                    </a> -->
+                    <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-github-line mr-2 group-hover:-rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gray-700 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden group hover-glow animate-fade-in-up" style="animation-delay: 1s;">
+                <div class="relative overflow-hidden">
+                  <img alt="Portfolio Website" class="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500" src="https://readdy.ai/api/search-image?query=Modern%20portfolio%20website%20design%2C%20developer%20portfolio%20interface%2C%20clean%20minimalist%20layout%2C%20professional%20web%20design%2C%20responsive%20design%20showcase%2C%20elegant%20UI&amp;width=600&amp;height=400&amp;seq=project-portfolio&amp;orientation=landscape">
+                  <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                    <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:rotate-12">
+                      <i class="ri-external-link-line text-lg">
+
+                      </i>
+                    </a>
+                    <a href="https://github.com/Jamin-Chan/PersonalWebsite" target="_blank" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:-rotate-12">
+                      <i class="ri-github-line text-lg">
+
+                      </i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-3 hover:text-blue-400 transition-colors duration-300">Portfolio Website</h3>
+                  <p class="text-gray-300 mb-4 line-clamp-3">Responsive portfolio website with smooth animations, SEO optimizations, and user-centered design.</p>
+                  <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1s;">HTML</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.1s;">CSS</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.2s;">Javascript</span>
+                  </div>
+                  <div class="flex space-x-3">
+                    <a href="https://jamin-chan.github.io/PersonalWebsite/" target="_blank" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-external-link-line mr-2 group-hover:rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Live Demo</span>
+                    </a>
+                    <a href="https://github.com/Jamin-Chan/PersonalWebsite" target="_blank" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-github-line mr-2 group-hover:-rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gray-700 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden group hover-glow animate-fade-in-up" style="animation-delay: 1.1s;">
+                <div class="relative overflow-hidden">
+                  <img alt="AI Chat Assistant" class="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500" src="https://readdy.ai/api/search-image?query=AI%20chatbot%20interface%2C%20conversational%20AI%20dashboard%2C%20machine%20learning%20chat%20application%2C%20modern%20chat%20UI%20design%2C%20artificial%20intelligence%20interface%2C%20tech%20innovation&amp;width=600&amp;height=400&amp;seq=project-ai-chat&amp;orientation=landscape">
+                  <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                    <a href="#" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:rotate-12">
+                      <i class="ri-external-link-line text-lg">
+
+                      </i>
+                    </a>
+                    <a href="https://github.com/realazee/multimodal-complaint-analysis-system" target="_blank" class="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 cursor-pointer hover:scale-110 hover:-rotate-12">
+                      <i class="ri-github-line text-lg">
+
+                      </i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-white mb-3 hover:text-blue-400 transition-colors duration-300">Multimodal Complaint Analysis System</h3>
+                  <p class="text-gray-300 mb-4 line-clamp-3">A multimodal complaint analysis system using Vertex AI and Google Cloud to process text, image, video, and voice inputs, storing analyzed results in PostgreSQL with a demo frontend for visualization.</p>
+                  <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1s;">PostgreSQL</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.1s;">Python</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.2s;">VertexAI</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.3s;">Google Gemini</span>
+                    <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-sm rounded-full hover:bg-blue-600/30 hover:scale-105 transition-all duration-300 cursor-default animate-bounce-in" style="animation-delay: 1.3s;">Google Cloud</span>
+                  </div>
+                  <div class="flex space-x-3">
+                    <!-- <a href="#" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-external-link-line mr-2 group-hover:rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Live Demo</span>
+                    </a> -->
+                    <a href="https://github.com/realazee/multimodal-complaint-analysis-system" target="_blank" class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 px-4 py-2 text-sm flex-1 group hover:scale-105">
+                      <i class="ri-github-line mr-2 group-hover:-rotate-12 transition-transform duration-300">
+
+                      </i>
+                      <span class="group-hover:scale-105 transition-transform duration-300">Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section id="contact" class="py-20 bg-gray-800 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+          <img alt="" class="w-full h-full object-cover object-center" src="https://readdy.ai/api/search-image?query=Abstract%20geometric%20pattern%2C%20dark%20technology%20background%2C%20minimal%20circuit%20board%20design%2C%20subtle%20tech%20pattern%2C%20dark%20blue%20and%20purple%20gradient%2C%20modern%20digital%20texture&amp;width=1200&amp;height=800&amp;seq=contact-bg&amp;orientation=landscape">
+        </div>
+        <div class="container mx-auto px-6 relative z-10">
+          <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16 animate-fade-in-up">
+              <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Let's Work Together</h2>
+              <p class="text-xl text-gray-300 max-w-3xl mx-auto">Have a project in mind? I'd love to hear about it and discuss how we can bring your ideas to life.</p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-16 items-start">
+              <div class="animate-slide-in-left">
+                <div class="space-y-8">
+                  <div class="flex items-center space-x-4 p-6 bg-gray-700 rounded-xl hover:bg-gray-600 transition-all duration-300 hover-float group">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <i class="ri-mail-line text-xl text-white">
+
+                      </i>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-white">Email</h3>
+                      <p class="text-gray-300">alex.johnson@email.com</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center space-x-4 p-6 bg-gray-700 rounded-xl hover:bg-gray-600 transition-all duration-300 hover-float group">
+                    <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <i class="ri-phone-line text-xl text-white">
+
+                      </i>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-white">Phone</h3>
+                      <p class="text-gray-300">+1 (555) 123-4567</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center space-x-4 p-6 bg-gray-700 rounded-xl hover:bg-gray-600 transition-all duration-300 hover-float group">
+                    <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <i class="ri-map-pin-line text-xl text-white">
+
+                      </i>
+                    </div>
+                    <div>
+                      <h3 class="text-lg font-semibold text-white">Location</h3>
+                      <p class="text-gray-300">San Francisco, CA</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-12 animate-fade-in-up animation-delay-400">
+                  <h3 class="text-xl font-bold text-white mb-6">Follow Me</h3>
+                  <div class="flex space-x-4">
+                    <a href="#" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300 hover:scale-110 hover-pulse">
+                      <i class="ri-github-line text-xl">
+
+                      </i>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300 hover:scale-110 hover-pulse">
+                      <i class="ri-linkedin-line text-xl">
+
+                      </i>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300 hover:scale-110 hover-pulse">
+                      <i class="ri-twitter-line text-xl">
+
+                      </i>
+                    </a>
+                    <a href="#" class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300 hover:scale-110 hover-pulse">
+                      <i class="ri-dribbble-line text-xl">
+
+                      </i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="animate-slide-in-right">
+                <form class="space-y-6 bg-gray-700 p-8 rounded-xl hover-glow">
+                  <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                      <input id="name" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-sm" placeholder="Your Name" required="" type="text" value="" name="name">
+                    </div>
+                    <div>
+                      <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                      <input id="email" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-sm" placeholder="your@email.com" required="" type="email" value="" name="email">
+                    </div>
+                  </div>
+                  <div>
+                    <label for="subject" class="block text-sm font-medium text-gray-300 mb-2">Subject</label>
+                    <input id="subject" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-sm" placeholder="Project Discussion" required="" type="text" value="" name="subject">
+                  </div>
+                  <div>
+                    <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                    <textarea id="message" name="message" rows="6" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none text-sm" placeholder="Tell me about your project..." required="">
+
+                    </textarea>
+                  </div>
+                  <button class="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 cursor-pointer whitespace-nowrap transform hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 px-8 py-4 text-lg w-full hover-glow group">
+                    <i class="ri-send-plane-line mr-2 group-hover:translate-x-1 transition-transform duration-300">
+
+                    </i>
+                    <span class="group-hover:scale-105 transition-transform duration-300">Send Message</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6">
+          <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Jamin Chan. All rights reserved.</p>
+              <div class="flex space-x-4">
+                <a href="https://www.linkedin.com/in/jaminchan/" target="_blank" class="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300 cursor-pointer">
+                  <i class="ri-linkedin-line text-sm">
+
+                  </i>
+                </a>
+                <a href="https://github.com/Jamin-Chan" target="_blank" class="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300 cursor-pointer">
+                  <i class="ri-github-line text-sm">
+
+                  </i>
+                </a>
+                <a href="https://www.instagram.com/jamin.200/" target="_blank" class="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300 cursor-pointer">
+                  <i class="ri-instagram-line text-sm">
+
+                  </i>
+                </a>
+                <!-- <a href="https://readdy.ai/?origin=logo" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm cursor-pointer ml-4">Powered by Readdy</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-  </nav>
+  </div>
 
-  
-  <main class = "background-black white">
-    <div id= "welcomepage" class = "welcome-container">
-        <img id = "backgroundImage" src="https://cdn.discordapp.com/attachments/940721423591305276/1202184057912569876/7F56TL73jasgfJPrU4isz-transformed.png?ex=65cc8826&is=65ba1326&hm=bcea1782234ab8fc1d24291214f7136ad8102d9185e2d9096376f16c68b7c61e&" alt="background">
-        <p class = "white image-credit">
-          Image Credit: <a href="https://instagram.com/raveni.x?igshid=MzRlODBiNWFlZA==" target="_blank" class = "white">Raven</a>
-        </p>
-        <div id = "welcome-text" >
-            <h1 class = "white bold shadowed-text border-bottom margin-bottom-4">JAMIN CHAN</h1>
-            <p id = "description">Developer - Computer Science Student - Software Engineer</p>
-        </div>
-    </div>
-    <section class = "hidden">
-      <h2 class = "header-font">Hello, I am Jamin Chan.</h2>
-      <p>
-        I am in studying at UC Davis pursuing a Bachelors degree in Computer Science.
-        I am currently learning to create my own projects.
-      </p>
-    </section>
+</body></html>
 
-    <section>
-      <h2 class = "header-font section-title black">Projects</h2>
-      <div class = "projects">
-        <h3 class = "hypixel-bot border">
-          Hypixel GEXP Bot
-          <p class = "projects-font">
-            This project is a discord bot created using python. The bot collects player data using hypixel api while formatting it into readable text as a discord embed.
-          </p>
-        </h3>
-        <h3 class = "personal-website border">
-          Personal Website
-          <p class = "projects-font">
-            This website is a personal project I work on to get some experience on front end developing.
-          </p>
-        </h3>
-      </div>
-    </section>
 
-    <section class = "hidden">
-      <h2 class = "header-font section-title black">Experience</h2>
-    </section>
-
-    <section class = "timeline-container">
-        <h1 class = "header-font section-title black">Education</h1>
-      <div class = "timeline-width">
-        <div class = "container-school left-container">
-          <h2>
-            University of California, Davis (2023 - 2025)
-          </h2>
-          <p>
-            I will be starting class at this university this fall.
-          </p>
-        </div>
-        <div class = "container-school right-container">
-          <h2>
-            Skyline College (2021 - 2023)
-          </h2>
-          <p>
-            I took 2 years at this community college in order to transfer to a 4 year university.
-          </p>
-        </div>
-        <div class = "container-school left-container">
-          <h2>
-            Mills High School (2017 - 2021)
-          </h2>
-          <p>
-            This is my high school.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class = "hidden skills">
-      <h2 class = "header-font section-title black">Skills</h2>
-      <div class="chart">
-        <div class="box">
-          Beginner
-        </div>
-        <div class="box">
-          Intermediate
-        </div>
-        <div class="box">
-          Expert
-        </div>
-      </div>
-      <div class="chart-wrap ">
-        <div class="grid horizontal">
-        <div class="bar" style="--bar-value:90%;" data-name="C++" ></div>
-              <div class="bar" style="--bar-value:75%;" data-name="Python"></div>
-             <div class="bar" style="--bar-value:70%;" data-name="Java"></div>
-              <div class="bar" style="--bar-value:55%;" data-name="JavaScript"></div>
-              <div class="bar" style="--bar-value:45%;" data-name="Git"></div>
-              <div class="bar" style="--bar-value:35%;" data-name="C"></div>
-              <div class="bar" style="--bar-value:25%;" data-name="HTML"></div>
-              <div class="bar" style="--bar-value:20%;" data-name="CSS"></div>    
-        </div>
-      </div>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2023 Jamin Chan. All rights reserved.</p>
-  </footer>
-</body>
-</html>
